@@ -1,1 +1,1 @@
-export const greeting = "До свидания";
+export const greeting = "Raiders of the Lost Lark";
