@@ -69,6 +69,7 @@ ul {
 li {
     color: whitesmoke;
     padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 main {
@@ -86,23 +87,14 @@ main li {
 }
 
 button {
-    margin: .4rem;
-    padding: .6rem;
+    color: black;
     border-radius: 5px;
     border-color: whitesmoke;
-    width: 2.5rem;
-}
-
-#red {
-    background-color: rgb(252, 61, 61);
-}
-#yellow {
-    background-color: rgb(249, 249, 31);
-}
-#green {
-    background-color: rgb(58, 132, 58);
+    margin: 1rem;
+    
 }
 
 .buttons {
     text-align: center;
+    border-top: 3px solid gray;
 }
