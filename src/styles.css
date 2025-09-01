@@ -98,6 +98,10 @@ button {
     border-top: 3px solid gray;
 }
 
+#add-task {
+    margin-left: -5px;
+}
+
 .buttons {
     text-align: center;
     border-top: 3px solid gray;
