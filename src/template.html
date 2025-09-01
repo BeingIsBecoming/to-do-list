@@ -12,29 +12,33 @@
     <div class="layout">
         <aside>
             <h2>PROJECTS</h2>
+            <div class="buttons">
+                <button id="new-project"> + Project</button>
+            </div>
             <div class="list-container">
                 <li><span> ⚠️ </span> - Upcoming </li>
                 <li><span> 🐦 </span> - FBI </li>
-                <li><span> 🍄‍🟫 </span> - Soma </li>
+                <li><span> 🕉️ </span> - Soma </li>
                 <li><span> ✅ </span> - Completed </li>
             </div>        
         </aside>
         <main>
             <h1>TODAY</h1>
-            <div id="date-today"></div>
             <div class="list-container">
+                <div id="date-today"></div>
                 <ul>
-                    <li><input type="checkbox"> Dynamic DOM loading</li>
-                    <li><input type="checkbox"> Name, Date, Notes</li>
-                    <li><input type="checkbox"> Date library</li>
-                    <li><input type="checkbox"> Project // Task Functionality</li>
-                    <li><input type="checkbox"> localStorage</li>
+                    <li><input type="checkbox"> Dynamic DOM loading<button id="delete-task">-</button></li>
+                    <li><input type="checkbox"> Name, Date, Notes<button id="delete-task">-</button></li>
+                    <li><input type="checkbox"> Date library<button id="delete-task">-</button></li>
+                    <li><input type="checkbox"> Project // Task Functionality<button id="delete-task">-</button></li>
+                    <li><input type="checkbox"> localStorage <button id="delete-task">-</button></li>
+                    <li><button id="add-task">+</button></li>
                 </ul>
                 <div class="buttons">
                     <!-- <h2>Priority</h2> -->
-                    <button id="green">New Project</button>
+                    <!-- <button id="green">New Project</button>
                     <button id="yellow">New Task</button>
-                    <button id="red">Delete</button>
+                    <button id="red">Delete</button> -->
                 </div>
             </div>
         </main>
