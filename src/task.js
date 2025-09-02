@@ -1,6 +1,8 @@
-export default function createTask() {
+const taskList = document.querySelector('.task-list');
+
+
+export function createTask() {
     const addTaskButton = document.querySelector('.add-task');
-    const taskList = document.querySelector('.task-list');
     const addTaskButtonParent = addTaskButton.parentElement;
     
     addTaskButton.addEventListener('click', (e) => {
@@ -9,5 +11,13 @@ export default function createTask() {
         taskList.removeChild(addTaskButtonParent);
         taskList.appendChild(newTask);
         taskList.appendChild(addTaskButtonParent);
+    });
+}
+
+export function deleteTask() {
+    taskList.addEventListener('click', (e)=> {
+        if(e.target.classList.contains('delete-task')) {
+            e.target.closest('li').remove();
+        }
     });
 }
