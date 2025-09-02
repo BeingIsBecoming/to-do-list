@@ -1,1 +1,1 @@
-export const greeting = "Raiders of the Lost Lark";
+export const greeting = "npx webpack serve";

@@ -93,7 +93,7 @@ button {
     margin: 1rem;
 }
 
-#new-project {
+.add-project {
     text-align: center;
     border-top: 3px solid gray;
 }

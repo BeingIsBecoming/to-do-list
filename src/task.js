@@ -5,7 +5,7 @@ export default function createTask() {
     
     addTaskButton.addEventListener('click', (e) => {
         const newTask = document.createElement('li');
-        newTask.innerHTML = '<input type = checkbox><span>USER INPUT HERE</span><button id="delete-task">-</button>';
+        newTask.innerHTML = '<input type = checkbox><span>New Task</span><button id="delete-task">-</button>';
         taskList.removeChild(addTaskButtonParent);
         taskList.appendChild(newTask);
         taskList.appendChild(addTaskButtonParent);
