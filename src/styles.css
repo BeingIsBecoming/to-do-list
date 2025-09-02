@@ -98,7 +98,7 @@ button {
     border-top: 3px solid gray;
 }
 
-#add-task {
+.add-task {
     margin-left: -5px;
 }
 
