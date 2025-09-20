@@ -11,8 +11,9 @@ deleteTask();
 createProject();
 
 const projectTest = new Project("FBI", "SSBD Art Installation","Sep.");
+const taskTest = new Task("APK Wrapper", "Sideload Mobile App");
 window.projectTest = projectTest;
-const taskTest = new Task("APK Wrapper", "Incomplete");
+window.taskTest = taskTest;
 
 console.log("V V V MODULE IMPORT & CLASS TESTING AREA V V V");
 console.log(projectTest);

@@ -1,7 +1,6 @@
 class Project {
-    constructor(title,description,dueDate) {
+    constructor(title, dueDate) {
         this.title = title;
-        this.description = description;
         this.dueDate = dueDate;
         this.tasks = [];
     }
@@ -17,9 +16,14 @@ class Project {
 }
 
 class Task {
-    constructor(title, checklist) {
+    constructor(title, description, checklist) {
         this.title = title;
-        this.checklist = checklist;
+        this.description = description;
+        this.checklist = false;
+    }
+
+    toggleChecklist() {
+        this.checklist = !this.checklist;
     }
 }
 
